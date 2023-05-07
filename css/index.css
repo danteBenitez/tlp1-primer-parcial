@@ -1,0 +1,33 @@
+@import url(./general.css);
+
+.hero {
+    height: auto;
+}
+
+.hero-text {
+    line-height: 2.3rem;
+    color: var(--clr-black);
+    background-color: var(--clr-primary);
+}
+
+.hero-frame {
+    max-width: 800px;
+    max-height: 1000px;
+    height: 70vh;
+    outline: 1px solid red;
+}
+
+.hero-text h1 span {
+    color: var(--clr-black);
+}
+
+.btn {
+    padding-inline: 1rem;
+    padding-block: 1.2rem;
+    border-radius: 0;
+    background-color: var(--clr-dark) !important;
+}
+
+.btn a {
+    color: var(--clr-white) !important;
+}

@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    src: url(.\fonts\AbrilFatface-Regular.ttf) format('truetype')
+}
+
+
 :root {
     --clr-primary-regular: #2C666E;
     --clr-secondary: #90DDF0;
@@ -8,20 +15,30 @@
     --clr-white: #F0EDEE;
 
     --clr-accent: #d876e0;
+
+    --fnt-family: 'Abril Fatface';
+    --fnt-weight: 400;
 }
+
+
 
 body {
     background-color: var(--clr-white);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     font-size: 2.7rem;
+    font-weight: bold;
+    color: var(--clr-dark);
 }
 
 .decorated-text {
     position: relative;
-    color: var(--clr-dark);
-    font-weight: bold;
 }
 
 .inverted {
@@ -47,10 +64,17 @@ body {
     height: 90%;
     width: 100%;
     z-index: -1;
+    display: inline-block;
+}
+
+.highlight::before {
+    left: 0px;
+    height: 45%;
 }
 
 footer {
     background-color: var(--clr-dark);
+    position: relative;
 }
 
 .social-links > * {
