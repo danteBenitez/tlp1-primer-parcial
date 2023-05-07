@@ -20,15 +20,19 @@
     --fnt-weight: 400;
 }
 
-
-
 body {
     background-color: var(--clr-white);
+    overflow-x: hidden;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+section {
+    max-width: 95% !important;
+    overflow: hidden;
 }
 
 .logo {
@@ -65,6 +69,20 @@ body {
     width: 100%;
     z-index: -1;
     display: inline-block;
+    animation: fade-in 300ms ease-in;
+}
+
+@keyframes fade-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+.decorated-text {
+
 }
 
 .highlight::before {
