@@ -1,7 +1,5 @@
 @import url(./general.css);
 
-
-
 .hero {
     height: auto;
 }
@@ -42,4 +40,12 @@
 
 .animated-btn a {
     color: var(--clr-white) !important;
+}
+
+.btn-outline {
+    outline: 1px 1px 1px 1px solid var(--clr-dark);
+}
+
+.btn-outline:hover a {
+    color: var(--clr-dark);
 }
