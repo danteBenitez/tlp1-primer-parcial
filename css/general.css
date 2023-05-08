@@ -100,6 +100,5 @@ footer {
 }
 
 .section-dark {
-    width: 100%;
     background-color: var(--clr-dark);
 }
