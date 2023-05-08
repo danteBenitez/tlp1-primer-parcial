@@ -1,0 +1,11 @@
+@import url(./general.css);
+
+.contact-form {
+    max-width: 70%;
+    min-width: 50vw;
+    gap: 1rem;
+}
+
+.contact-form > * {
+    margin: 1rem;
+}
