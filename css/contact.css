@@ -2,10 +2,67 @@
 
 .contact-form {
     max-width: 70%;
-    min-width: 50vw;
+    min-width: 80vw;
     gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .contact-form {
+        min-width: 40vw;
+    }
 }
 
 .contact-form > * {
     margin: 1rem;
+}
+
+.animated-btn {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--clr-secondary);
+}
+
+.animated-btn:hover {
+    background-color: var(--clr-white);
+}
+
+.form-label {
+    color: var(--clr-white);
+}
+
+.form-control::placeholder {
+    color: var(--clr-white);
+    opacity: 0.4;
+}
+
+.contact-form > * {
+    margin: 0.3rem;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.1rem solid var(--clr-secondary);
+    border-radius: 0;
+}
+
+input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+}
+
+.bi {
+    color: var(--clr-secondary);
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.form-control:active, 
+.form-control:focus {
+    background-color: transparent;
+    border: none;
+    outline: var(--clr-white);
+    caret-color: var(--clr-secondary);
 }
