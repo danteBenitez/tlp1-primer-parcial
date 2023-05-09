@@ -9,7 +9,7 @@
     max-width: 650px;
     position: relative;
     overflow: visible;
-    transition: all 1s ease-in;
+    transition: all 500ms ease-in;
 }
 
 .floating-img {
@@ -56,6 +56,10 @@
     width: 99vw;
 }
 
+.grid-container > * {
+    margin: 1rem;
+}
+
 .accent {
     background-color: var(--clr-dark);
     color: var(--clr-white);
@@ -65,10 +69,14 @@
     .grid-container {
         margin: 2rem;
         display: grid;
-        max-height: 1000px;
+        max-height: 1200px;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 1rem;
+    }
+
+    .grid-container > * {
+        margin: 0;
     }
 }
 
