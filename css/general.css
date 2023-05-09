@@ -73,6 +73,10 @@ section {
     animation: fade-in 300ms ease-in;
 }
 
+.active {
+    color: var(--clr-dark) !important;
+}
+
 @keyframes fade-in {
     from {
         width: 0;

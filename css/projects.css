@@ -117,3 +117,6 @@
     background-color: rgb(18, 219, 18);
 }
 
+.badge[data-language="bootstrap"] {
+    background-color: rgb(185, 29, 185);
+}
