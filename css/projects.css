@@ -83,3 +83,29 @@
 .project-card.wide {
     grid-column: auto / span 4;
 }
+
+.badge[data-language] {
+    color: var(--clr-white);
+}
+
+.badge[data-language="html"] {
+    background-color: rgb(223, 42, 42);
+}
+
+.badge[data-language="css"] {
+    background-color: rgb(40, 209, 209);
+}
+
+.badge[data-language="javascript"] {
+    color: var(--clr-dark);
+    background-color: rgb(243, 243, 12);
+}
+
+.badge[data-language="react"] {
+    background-color: rgba(40, 209, 209, 0.87);
+}
+
+.badge[data-language="vue"] {
+    background-color: rgb(18, 219, 18);
+}
+

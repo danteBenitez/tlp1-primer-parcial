@@ -12,4 +12,4 @@ En el portfolio encontrarás:
 -   **Información sobre mis habilidades y conocimientos** en cuanto a tecnologías de la _web_, _frameworks_ y lenguajes
     que me permiten trabajar eficiente y óptimamente
 -   **Descripción de algunos proyectos anteriores** en los que he trabajado y las tecnologías que apliqué en cada caso
--   **Modalidad de contacto** e información sobre mi educación en el área
+-   **Modalidad y formulario de contacto**
